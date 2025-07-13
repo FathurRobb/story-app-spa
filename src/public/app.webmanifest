@@ -1,0 +1,97 @@
+{
+  "id": "/#/",
+  "start_url": "/#/",
+  "scope": "/",
+  "name": "HiddenStory App",
+  "short_name": "HiddenStory",
+  "description": "Sebuah aplikasi inovatif yang dirancang untuk mengungkapkan kisah-kisah tersembunyi dari kehidupan setiap individu, yang biasanya tidak mereka bagikan kepada orang lain. Aplikasi ini memberikan platform bagi setiap orang untuk mengungkapkan cerita-cerita pribadi, perasaan, dan pengalaman yang jarang diceritakan, memungkinkan kita untuk lebih memahami kedalaman kehidupan orang-orang di sekitar kita dengan cara yang lebih intim dan penuh empati.",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#00b4d8",
+  "icons": [
+    {
+      "src": "images/icons/icon-x144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icons/web-app-manifest-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/web-app-manifest-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshots/HiddenStoryApp_01.png",
+      "sizes": "1365x638",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/HiddenStoryApp_02.png",
+      "sizes": "1365x633",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/HiddenStoryApp_03.png",
+      "sizes": "1359x641",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/HiddenStoryApp_04.png",
+      "sizes": "1284x2778",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/HiddenStoryApp_05.png",
+      "sizes": "1284x2778",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/HiddenStoryApp_06.png",
+      "sizes": "1284x2778",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Cerita Baru",
+      "short_name": "Baru",
+      "description": "Membuat cerita baru.",
+      "url": "/?source=pwa#/new",
+      "icons": [
+        {
+          "src": "images/icons/add-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Cerita Tersimpan",
+      "short_name": "Tersimpan",
+      "description": "Lihat daftar cerita tersimpan.",
+      "url": "/?source=pwa#/bookmark",
+      "icons": [
+        {
+          "src": "images/icons/bookmark-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
