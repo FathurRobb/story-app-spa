@@ -1,2 +1,2 @@
-APP_URL=<url_aplikasi>
+APP_URL=https://deft-scone-53813a.netlify.app/
 MAP_SERVICE_API_KEY=<api_key>
